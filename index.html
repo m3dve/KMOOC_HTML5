@@ -31,11 +31,16 @@
     <script type="text/javascript" src="app.js"></script>
   </head>
 
-  <body>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+<script type="text/javascript"> 
+  
+</script>
+
+  <body >
     <h1 style="text-align:center">Amőba</h1>
 
 
-    <form>
+    <form >
       <label for="choose">Első játékos:</label><br>
       <input id="choose" name="i_like" required><br><br>
       <label for="choose2">Második játékos:</label><br>
@@ -45,7 +50,6 @@
 
 
     <table id="myTable">
-
     </table>
     <div id="kovijatek" class="hot-container templateSvg">
 
@@ -75,6 +79,17 @@
       <p><span class="ui-icon ui-icon-plusthick" style="float:left; margin:0 7px 20px 0;"></span>A kijelölt cella foglalt!</p>
     </div>
 
+ <br>
+ <br>
+ <br>
+    <table id="scoreTable" class="">
+      <tr>
+        <th>Név</th>
+        <th>Lépésből</th>
+        <th>Cím</th>
+        <th>Dátum</th>        
+      </tr>
+    </table>
 
   </body>
 
