@@ -1,0 +1,142 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#myTable {
+    table-layout: fixed;
+    border:none;    
+    width:40%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#dialog{display:none}
+
+.usedCell{
+    background-color: #d4bc2f;
+    border:none;
+    width: 20%;
+     margin:2px;
+    box-shadow: inset 0 0 2px 2px #fff;
+    
+    text-align:center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.newCell{
+    background-color: #bada55;
+    border:none;
+    width: 20%;
+     margin:2px;
+    box-shadow: inset 0 0 2px 2px #fff;    
+    text-align:center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.winCell{
+    background-color: #fff;
+    border:none;
+    width: 20%;
+     margin:2px;
+    box-shadow: inset 0 0 2px 2px #fff;    
+    text-align:center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.templateSvg{
+    display:none
+  }
+
+  .svgSymbol{
+      padding: 5%;
+  }
+
+  input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:invalid:required {
+    background-image: linear-gradient(to right, rgb(245, 210, 10), lightgreen);
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
+
+  .hot-container p { margin-top: 10px; }
+a { text-decoration: none; margin: 0 10px; }
+
+.hot-container {
+	min-height: 100px;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+	.btn:hover {
+		background-color: #e3e3e3;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	.btn:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+ 
+.btn-red {
+	background-color: #bada55;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: rgb(12, 20, 36);
+}
+
+	.btn-red:hover {
+		background-color: #99aa63;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	.btn-red:active {
+		background-color: #bada55;
+		border-color: rgba(0,0,0,0.9);
+	}
+
+  
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: url(https://soroptimistclub.hu/images/microsites/1920x693/e3dede29.jpg) center center no-repeat;
+  }
+
+  .site-header {
+    background-color: rgba(253, 216, 53  , .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: rgb(8, 1, 1);
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
